@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanveer Thummala - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#interests">Interests</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <div class="header-content">
+          <img
+            src="profile.jpeg"
+            alt="Tanveer Thummala"
+            class="profile-image"
+          />
+          <div class="header-info">
+            <h1>BABA TANVEER THUMMALA</h1>
+            <p>+1(337) 554-8065 | San Jose, CA</p>
+            <p>
+              <a href="mailto:tanveerbthummala21@gmail.com"
+                >tanveerbthummala21@gmail.com</a
+              >
+              |
+              <a href="https://linkedin.com/in/baba-tanveer-t-867508289/"
+                >linkedin.com/in/baba-tanveer-t-867508289/</a
+              >
+            </p>
+          </div>
+          <script>
+            const name = document.querySelector("h1");
+            const text = name.textContent;
+            name.textContent = "";
+            let i = 0;
+            const typeWriter = () => {
+              if (i < text.length) {
+                name.textContent += text.charAt(i);
+                i++;
+                setTimeout(typeWriter, 50);
+              }
+            };
+            setTimeout(typeWriter, 1000);
+          </script>
+        </div>
+      </header>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Highly motivated and skilled Computer Engineering professional with a
+          strong background in software development, hardware validation, and
+          research, seeking a challenging and rewarding opportunity in the field
+          of computer engineering. Proven ability to collaborate effectively
+          with cross-functional teams and deliver innovative solutions, with a
+          focus on creating high-quality and reliable software and hardware
+          systems. Passionate about leveraging technology to solve complex
+          problems and drive positive impact, with a commitment to continuous
+          learning and professional development. Experienced in working with
+          diverse teams and stakeholders, and adept at communicating technical
+          concepts to both technical and non-technical audiences. Dedicated to
+          contributing to the success of a dynamic and innovative organization,
+          and eager to apply my skills and experience to make a meaningful
+          difference.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>EDUCATION</h2>
+        <p>
+          <strong
+            >Masters in Computer Engineering, University of Louisiana at
+            Lafayette</strong
+          >
+          - 4.0/4.0 GPA
+        </p>
+        <p>
+          <strong
+            >Bachelor of Technology, Electronics & Communication
+            Engineering(HONORS), LPU</strong
+          >
+          - 3.9/4.0 GPA
+        </p>
+      </section>
+
+      <section id="experience">
+        <h2>WORK EXPERIENCE</h2>
+        <article>
+          <h3>
+            Graduate Research & Teaching Assistant, University of Louisiana at
+            Lafayette
+          </h3>
+          <p>August 2023 - Present, Louisiana, LA</p>
+          <ul>
+            <li>
+              Assisted faculty in teaching courses such as Circuits and Signals,
+              and Analog & Digital Electronic systems, providing comprehensive
+              support and guidance to students in understanding fundamental
+              concepts and practical applications.
+            </li>
+            <li>
+              Collaborated with faculty on the development of instructional
+              materials, ensuring timely grading and feedback to facilitate
+              student learning and progress. Contributed to research projects
+              related to embedded systems and hardware validation, gaining
+              valuable experience in cutting-edge technologies and research
+              methodologies.
+            </li>
+            <li>
+              Developed essential skills in classroom management, effective
+              communication, team collaboration, and mentorship. Guided and
+              taught 130+ students, fostering a positive and engaging learning
+              environment, and providing personalized guidance to support their
+              academic and professional growth.
+            </li>
+            <li>
+              Honored with Academic Excellence Award 2024 & 2025, Robert Elliot
+              May fellowship.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Sr. Software Development Engineer, BOSCH</h3>
+          <p>August 2019 - May 2023, Bangalore, India</p>
+          <ul>
+            <li>
+              Led software development for automotive ECUs and VCUs in C and
+              C++, with a strong emphasis on hardware verification and
+              validation for Diesel, Gasoline, electric, and hybrid vehicles.
+              Contributed to 18+ major OEM projects with leading automotive
+              companies such as Ford, BMW, Honda, Tata EV, Nissan, and Mercedes,
+              ensuring strict adherence to Safety ISO 26262 and ISO 21448
+              standards. Played a key role in both hardware and software
+              development for ADAS/AV systems, focusing on low-level debugging,
+              optimization, and ensuring the reliability and safety of critical
+              automotive functions.
+            </li>
+            <li>
+              Demonstrated proficiency in debugging software using LabCar,
+              collaborating closely with cross-functional teams to meet rigorous
+              testing requirements, including EMC, EMI Endurance, ISO pulse,
+              robustness, and thermal testing. Developed 10+ libraries and
+              effectively utilized CFI, FLIPX, and Vector CANalyzer tools for
+              flashing and monitoring responses, ensuring the optimal
+              performance and reliability of ECUs. Possess extensive experience
+              in the integration of CAN, UDS, SPI, LIN, and Ethernet protocols,
+              and skilled in the use of lab equipment such as Oscilloscopes,
+              Multimeters, Power supplies, and Signal generators for
+              comprehensive testing and validation. Collaborated seamlessly with
+              the Vienna SW team, contributing to the integration of 4 new
+              modules, which reduced development time by 40%. Experienced with
+              ASIC features, ICs, ARM, RISC, device drivers, HIL, SIL, and
+              understanding limitations based on controller datasheets.
+            </li>
+            <li>
+              Pioneered the creation of VRCS (Virtual Remote Control System),
+              enabling remote work during standard and peak hours, showcasing
+              innovation and adaptability. Reduced the project completion time
+              by 55% and was awarded with Top 10 best innovation projects in
+              BOSCH Global Fest 2021. Recognized with Young Talent award, 2021,
+              for contributions to software development and team collaboration.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>Project Trainee - Intern, BOSCH</h3>
+          <p>March 2019 - June 2019, Bangalore, India</p>
+          <ul>
+            <li>
+              Created base software structure, reducing coding time by 35% and
+              accuracy increased to 95%, Test automation software.
+            </li>
+            <li>
+              Achieved an outstanding score of 96/100 in internship. Completed
+              comprehensive management training programs to fortify skills and
+              technical training in powertrain systems, hardware requirements,
+              SIL, and software development cycle. Skilled in PID, schematics,
+              Controller systems. Logic development-functions, libraries.
+              Software design, Powertrain Architecture.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="skills">
+        <h2>SKILLS</h2>
+        <p>
+          <strong>Programming Languages:</strong> Embedded C, C++, Python, C,
+          SQL, Linux, Go, Rust, Bash, Verilog, HDL, Azure, AWS.
+        </p>
+        <p>
+          <strong>Technical Skills:</strong> VLSI Design, HIL, SDLC, CI/CD,
+          Git/Github, Matlab/Simulink, FMEDA, V&V, Excel.
+        </p>
+        <p>
+          <strong>Soft Skills:</strong> Teamwork, Project management, Problem
+          Solving, Data Analysis, Presentation, Documentation.
+        </p>
+        <p>
+          <strong>Other:</strong> Algorithms, SQL, OOPs, Rust, Multisim, RTL, NI
+          Labview, DBMS, DAQ, RTOS, MISRA, Agile.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>PROJECTS</h2>
+        <article>
+          <h3>ECU Validation Software Development and Testing</h3>
+          <p>
+            Developed software tailored to specified requirements, utilizing
+            proprietary libraries for enhanced functionality and
+            maintainability. Conducted meticulous optimization processes for
+            software updates for Electric, Gasoline, and Diesel Vehicles,
+            ensuring high performance and reliability. Managed projects
+            including VC1CP091, VE1CP005, VD1CC010, MG1CS180, MG1CS075,
+            MG1CA940, MG1CA020, and AIM-EPM44, demonstrating expertise in
+            automotive software development.
+          </p>
+          <ul>
+            <li>
+              Initiated the design of the base software schema from scratch,
+              Optimized development efficiency by 60% through the design of the
+              base software schema from scratch. Facilitated direct meetings
+              with OEMs, fostering collaboration and implementing innovative
+              features and technologies, including OTA and CANoe integration.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>8*8 ROM array using Cadence Virtuoso</h3>
+          <p>
+            Developed an 8x8 ROM array using Cadence Virtuoso, implementing
+            address decoding and data storage functionalities. Successfully
+            contributed to the project’s completion by effectively utilizing
+            Cadence Virtuoso tools and methodologies. Experienced with Synopsys
+            design compiler for SoC, hardware design and testing, CPU, GPU, and
+            Computer Architecture.
+          </p>
+          <ul>
+            <li>
+              Designed and verified the ROM array through schematic design,
+              layout implementation, and simulation using CMOS technology.
+              Hands-on experience with FPGA, ARM, hardware design, RTL design,
+              PCB design, and fabrication, demonstrating a comprehensive
+              understanding of microcontrollers and processors.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via email or LinkedIn.</p>
+        <p>
+          Email:
+          <a href="mailto:tanveerbthummala21@gmail.com"
+            >tanveerbthummala21@gmail.com</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://linkedin.com/in/baba-tanveer-t-867508289/"
+            >linkedin.com/in/baba-tanveer-t-867508289/</a
+          >
+        </p>
+      </section>
+
+      <section id="interests">
+        <h2>INTERESTS</h2>
+        <p>
+          Complex problem solving, Troubleshooting, Failure analysis,
+          communication, Coding, Collaboration, Critical Thinking.
+        </p>
+      </section>
+
+      <footer>
+        <p>© 2025 Baba Tanveer Thummala</p>
+      </footer>
+    </div>
+  </body>
+</html>
